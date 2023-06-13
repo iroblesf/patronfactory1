@@ -10,6 +10,7 @@ package patronfactory;
  */
 public  abstract class Creator {
     
+    private String nombre;
     public void someOperation(){
     }
     public abstract Product createProduct();
